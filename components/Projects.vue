@@ -75,7 +75,7 @@
 		justify-content: center;
 		align-items: flex-start;
 		position: relative;
-		margin: 10rem 0;
+		margin: 5rem 0;
 	}
 
 	.project-content {
@@ -117,6 +117,7 @@
 		background-color: var(--color-primary);
 		border: 3px solid var(--color-text);
 		border-radius: 10px;
+		transition: 1s;
 	}
 
 	#projects span {
@@ -170,6 +171,11 @@
 		.project:nth-child(2n) a {
 			right: 300px;
 			left: auto;
+		}
+
+		.project a:hover {
+			background-color: var(--color-secondary);
+			transition: 1s;
 		}
 	}
 </style>
