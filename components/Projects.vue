@@ -62,6 +62,7 @@
 	}
 
 	#projects h2 {
+		width: 100%;
 		font-size: 2rem;
 		font-weight: 300;
 		margin: 4rem 0;
