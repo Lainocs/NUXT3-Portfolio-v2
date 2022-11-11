@@ -6,6 +6,7 @@
 			<div class="project-content">
 				<h3>{{ project.name }}</h3>
 				<p>• {{ project.description }}</p>
+				<span class="tech">{{ project.language }}</span>
 			</div>
 			<img :src="project.image" :alt="project.title">
 			<a v-if="project.link" :href="project.link">See project</a>
@@ -121,6 +122,16 @@
 		transition: 1s;
 	}
 
+	#projects .tech {
+		font-size: 1rem;
+		letter-spacing: normal;
+		margin: 0;
+		padding: 10px 0;
+		text-align: inherit;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
 	#projects span {
 		font-size: 3rem;
 		font-weight: 300;
@@ -177,6 +188,10 @@
 		.project a:hover {
 			background-color: var(--color-secondary);
 			transition: 1s;
+		}
+
+		#projects .tech {
+			font-size: 1rem;
 		}
 	}
 </style>
