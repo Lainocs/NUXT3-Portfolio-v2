@@ -3,6 +3,7 @@
 		<Header />
 		<Presentation />
 		<About />
+		<Projects />
 	</div>
 </template>
 
@@ -18,6 +19,10 @@ export default {
 	--color-primary: #010318;
 	--color-secondary: #404C6C;
 	--color-text: #7B86A1;
+	--javascript: #F7DF1E;
+	--laravel: #FF2D20;
+	--php: #777BB4;
+	--vuejs: #4FC08D;
 }
 
 /* put background color and background image must have 0.1 opacity */
@@ -35,7 +40,7 @@ body::after {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 300vh;
+	height: 500vh;
 	background-image: url('/deco/stars.png');
 	z-index: -1;
 	opacity: 0.1;
