@@ -120,8 +120,7 @@
 	}
 
 	#projects span {
-		width: 100%;
-		font-size: 4rem;
+		font-size: 3rem;
 		font-weight: 300;
 		margin: 4rem auto;
 		text-align: center;
